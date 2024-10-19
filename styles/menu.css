@@ -1,0 +1,738 @@
+.container-menu {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: row;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+.scroll-menu {
+    scroll-behavior: smooth;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-y: scroll,hidden;
+}
+
+.butRes {
+    background-color: black;
+}
+
+.butRes a:hover {
+    color: rgb(128, 128, 128);
+}
+
+span {
+    background-color: black;
+}
+
+.menupage {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0;
+}
+
+.breakfastpage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: #251E16;
+    color: white;
+}
+.dinnerpage {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #fcfcfc;
+    color: white;
+    width: 100%;
+    height: 105vh;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+    background-color: #6b4b30;
+}
+
+.lunchpage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: #251E16;
+    color: white;
+}
+
+.winepage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: #251E16;
+    color: white;
+}
+
+
+.lightb, .mainb, .drinksb {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    padding: 20px;
+}
+
+.startersl, .mainl, .drinksl {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    padding: 20px;
+}
+
+.startersd, .maind, .drinksd {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    padding: 20px;
+}
+
+.white, .red, .sparkling {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    padding: 20px;
+}
+
+.lightb h1, .mainb h1, .drinksb h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.startersl h1, .mainl h1, .drinksl h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.startersd h1, .maind h1, .drinksd h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.startersd h2, .maind h2, .drinksd h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 100;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.white h1, .red h1, .sparkling h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.white h2, .red h2, .sparkling h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 100;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+
+.menu-item {
+    background: #eaebe9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.menu-item2 {
+    background: #be9982;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.menu-item3 {
+    background: #630f0079;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+.menu-item4 {
+    background: #00000079;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.menu-item2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+}
+.menu-item3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+}
+.menu-item4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+}
+.menu-item h2 {
+    color: black;
+    font-weight: 100;
+}
+
+.menu-item2 h2 {
+    color: white;
+    font-weight: 100;
+}
+
+.menu-item3 h2 {
+    color: white;
+    font-weight: 100;
+}
+
+.menu-item4 h2 {
+    color: white;
+    font-weight: 100;
+}
+
+
+
+.avocadotoast {
+    background-image: url(../img/avocado-toast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.greekyogurt {
+    background-image: url(../img/greekyogurt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.chiapudding {
+    background-image: url(../img/chiapudding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.omlette {
+    background-image: url(../img/omlette.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.shakshuka {
+    background-image: url(../img/shakshuka.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.matcha {
+    background-image: url(../img/matcha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.smoothie {
+    background-image: url(../img/smoothie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.tomatosalad {
+    background-image: url(../img/tomatosalad.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.hummus {
+    background-image: url(../img/hummus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.cbites {
+    background-image: url(../img/cbites.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.quinoa {
+    background-image: url(https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/wiqmlpyu/fcbf847e-dbb1-4c12-a884-29c85079e9df.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.grilledchicken {
+    background-image: url(../img/grilledchicken.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.poke {
+    background-image: url(../img/poke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.hibiscus {
+    background-image: url(../img/hibiscus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.sparklingmint {
+    background-image: url(../img/mint.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.turmeniclatte {
+    background-image: url(../img/latte.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.brew {
+    background-image: url(../img/brew.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.pear, .tuna, .truffle, .lamb, .seabass, .squash, .gin, .martini, .sangria {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.pear {
+    background-image: url(../img/pear.jpg);
+}
+
+.tuna {
+    background-image: url(../img/tuna.jpg);
+}
+
+.truffle {
+    background-image: url(../img/truffle.jpg);
+}
+
+.lamb {
+    background-image: url(../img/lamb.jpg);
+}
+
+.seabass {
+    background-image: url(../img/seabass.jpg);
+}
+
+.squash {
+    background-image: url(../img/squash.jpg);
+}
+
+.gin {
+    background-image: url(../img/gin.jpg);
+}
+
+.martini {
+    background-image: url(../img/martini.jpg);
+}
+
+.sangria {
+    background-image: url(../img/sangria.jpg);
+    background-position: none;
+}
+
+
+.sauvignon, .chardonnay, .noir, .cabernet, .malbec, .prosecco, .moet, .rose, .riesling {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+.sauvignon {
+    background-image: url(../img/sauvignon.jpg);
+}
+
+.chardonnay {
+    background-image: url(../img/chardonnay.jpg);
+}
+
+.noir {
+    background-image: url(../img/noir.jpg);
+}
+
+.cabernet {
+    background-image: url(../img/cabernet.jpg);
+}
+
+.malbec {
+    background-image: url(../img/malbec.jpg);
+}
+
+.prosecco {
+    background-image: url(../img/prosecco.jpg);
+}
+
+.moet {
+    background-image: url(../img/moet.jpg);
+}
+
+.rose {
+    background-image: url(../img/rose.jpg);
+}
+
+.riesling {
+    background-image: url(../img/riesling.jpg);
+}
+
+
+.lightb, .mainb, .drinksb, .startersl, .mainl, .drinksl, .startersd, .maind, .drinksd, .white, .red, .sparkling {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lunchpage, .breakfastpage, .dinnerpage {
+    width: 100%;
+    height: 140vh;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.winepage {
+    width: 100%;
+    height: 180vh;
+    padding: 5px 0;
+}
+
+.lunchpage {
+    background-color: #6b4b30;
+}
+
+.breakfastpage {
+    background-color: #ccc59f;
+}
+.dinnerpage {
+    background-color: #41312c;
+}
+
+.winepage {
+    background-color: #3b1313;
+}
+
+
+.drinksb h2 {
+    font-size: 1.8rem;
+}
+
+.drinksb p {
+    font-size: 1rem;
+}
+
+
+
+
+.breakfast, .lunch, .dinner, .wine {
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: brightness(50%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.breakfast h2, .lunch h2, .dinner h2, .wine h2 {
+    font-size: 45px;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+}
+
+.lunch {
+    background-image: url(../img/lunch.png);
+}
+
+.dinner {
+    background-image: url(../img/dinner.png);
+}
+
+.wine {
+    background-image: url(../img/wine.jpg);
+}
+
+.breakfast {
+    background-image: url(../img/breakfast.png);
+}
+
+.lunchp, .dinnerp, .winep {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.lunchp {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.dinnerp {
+    width: 100%;
+    height: 100vh;
+}
+
+.winep {
+    width: 100%;
+    height: 100vh;
+}
+
+#back {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 15px;
+
+  }
+
+  
+  #back:hover {
+    transition: all .2s;
+    transform: scale(1.05);
+  }
+
+@media (max-width: 768px) {
+    .lightb, .mainb, .drinksb {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .startersl, .mainl, .drinksl {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .startersd, .maind, .drinksd {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .white, .red, .sparkling {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .menu-item {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .container-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .breakfast {
+        width: 100%;
+        height: 25vh;
+    }
+    .lunch {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .dinner {
+        width: 100%;
+        height: 25vh;
+    }
+    .wine {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .breakfastpage, .lunchpage, .dinnerpage, .winepage{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .menu-item2 {
+        width: 100%;
+    }
+
+}
