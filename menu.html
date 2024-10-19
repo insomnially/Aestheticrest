@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Menu</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="wrapper">
+                    <div class="butRes"><a href="#">RESERVE</a></div>
+                    <dialog id="modal" class="modal">
+                        <div class="header-modal">
+                            <div class="header-modal__inner">
+                                <h1 class="header-modal-logo"><a href="index.html">Aesthetic</a></h1>
+                                <div class="btn-close">x</div>
+                            </div>
+                            <section class="banner">
+                                <div class="card-places">
+                                    
+                                </div>
+                            <div class="card-container">
+                                <div class="card-left">
+                                <ul class="showcase">
+                                    <li>
+                                        <div class="seatex"></div>
+                                        <small>Available</small>
+                                    </li>
+                                    <li>
+                                        <div class="seatex selected"></div>
+                                            <small>Selected</small>
+                                    </li>
+                                    <li>
+                                        <div class="seatex sold"></div>
+                                            <small>Reserved</small>
+                                    </li>
+                                </ul>
+                                <div class="container-seat">
+                                    <div class="reception"><p>Reception</p></div>
+                                    <div class="row-container">
+                                    <div class="row1">
+                                        <div class="seat6">6</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat4">4</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat2 sold">2</div>
+                                        <div class="seat6 sold">6</div>
+                                    </div>
+                                    <div class="row2">
+                                        <div class="seat2 sold">2</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat4 sold">4</div>
+                                        <div class="seat4 sold">4</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat2 sold">2</div>
+    
+                                    </div>
+                                    <div class="row3">
+                                        <div class="seat6bar">Bar</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat4">4</div>
+                                        <div class="seat2">2</div>
+                                        <div class="seat2 sold">2</div>
+                                        <div class="seat6 sold">6</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="card-right">
+                                    <form>
+                                        <div class="form-row">
+                                            <select name="days">
+                                                <option value="day-select">Select Day</option>
+                                                <option value="monday">Monday</option>
+                                                <option value="tuesday">Tuesday</option>
+                                                <option value="wednesday">Wednesday</option>
+                                                <option value="thursday">Thursday</option>
+                                                <option value="friday">Friday</option>
+                                                <option value="saturday">Saturday</option>
+                                                <option value="sunday">Sunday</option>
+                                            </select>
+                                            <select name="hours">
+                                                <option value="hour-select">Select Time</option>
+                                                <option value="9:00">9:00</option>
+                                                <option value="10:15">10:15</option>
+                                                <option value="11:30">11:30</option>
+                                                <option value="12:45">12:45</option>
+                                                <option value="14:00">14:00</option>
+                                                <option value="15:15">15:15</option>
+                                                <option value="16:30">16:30</option>
+                                                <option value="17:45">17:45</option>
+                                                <option value="19:00">19:00</option>
+                                                <option value="20:15">20:15</option>
+                                                <option value="21:30">21:30</option>
+                                                <option value="22:45">22:45</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-row">
+                                            <input type="text" placeholder="Enter Name">
+                                            <input type="tel" value="+7">
+                                        </div>
+    
+                                        <div class="form-row">
+                                            <select name="guests">
+                                                <option value="Guests">Guests</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <input type="submit" value="Reserve">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        </div>
+                    </dialog>
+                </div>
+    
+    
+                <div class="header__logo">
+                    
+                    <a href="index.html">Aesthetic</a></div>
+    
+                <div class ="menu">
+                    <nav>
+                        <li><a href= "menu.html">Menu</a></a></li>
+                        <li><a href= "events.html">Events</a></li>
+                        <li><a href= "about.html">About</a></li>
+                        <div class="logoLetter"><img src="/img/letterLogo.png"></div>
+                    </div>
+                    </nav>
+                    <div class="menuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="scroll-menu">
+    <div class="container-menu">
+        <a href="#breakfastpage" data-aos="fade-down" data-aos-delay="200" data-aos-offset="200" data-aos-duration="3500" class="breakfast"><h2>Breakfast</h2></a>
+        <a href="#lunchpage" data-aos="fade-down" data-aos-delay="400" data-aos-offset="200" data-aos-duration="3500" class="lunch"><h2>Lunch</h2></a>
+        <a href="#dinnerpage" data-aos="fade-down" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="dinner"><h2>Dinner</h2></a>
+        <a href="#winepage" data-aos="fade-down" data-aos-delay="800" data-aos-offset="200" data-aos-duration="3500" class="wine"><h2>Wine</h2></a>
+    </div>
+    <div class="breakfastpage" id="breakfastpage">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="lightb">
+            <h1>Light Breakfast</h1>
+            <div class="menu-item">
+                <h2>Avocado & Sourdough Toast</h2>
+                <div class="avocadotoast"></div>
+            </div>
+            <div class="menu-item">
+                <h2>Greek Yogurt & Honey Bowl</h2>
+                <div class="greekyogurt"></div>
+            </div>
+            <div class="menu-item">
+                <h2>Chia Pudding Delight</h2>
+                <div class="chiapudding"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-down" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="mainb">
+            <h1>Main Dishes</h1>
+            <div class="menu-item">
+                <h2>Omelette Aesthetic</h2>
+                <div class="omlette"></div>
+            </div>
+            <div class="menu-item">
+                <h2>Shakshuka with Feta & Herbs</h2>
+                <div class="shakshuka"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="drinksb">
+            <h1>Drinks</h1>
+            <div class="menu-item">
+                <h2>Matcha Latte</h2>
+                <div class="matcha"></div>
+            </div>
+            <div class="menu-item">
+                <h2>Aesthetic Smoothie</h2>
+                <div class="smoothie"></div>
+            </div>
+            <div class="menu-item">
+                <h2>Cold Brew with Coconut Milk</h2>
+                <div class="brew"></div>
+            </div>
+        </div>
+    </div>
+    <div class="lunchpage" id="lunchpage">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="startersl">
+            <h1>Starters</h1>
+            <div class="menu-item2">
+                <h2>Tomato & Burrata Salad</h2>
+                <div class="tomatosalad"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Roasted Beetroot Hummus</h2>
+                <div class="hummus"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Crispy Cauliflower Bites</h2>
+                <div class="cbites"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-down" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="mainl">
+            <h1>Main Dishes</h1>
+            <div class="menu-item2">
+                <h2>Quinoa & Roasted Vegetable Bowl</h2>
+                <div class="quinoa"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Grilled Chicken Caesar Wrap</h2>
+                <div class="grilledchicken"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Salmon Poke Bowl</h2>
+                <div class="poke"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="drinksl">
+            <h1>Drinks</h1>
+            <div class="menu-item2">
+                <h2>Iced Hibiscus Tea</h2>
+                <div class="hibiscus"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Cucumber & Mint Sparkling Water</h2>
+                <div class="sparklingmint"></div>
+            </div>
+            <div class="menu-item2">
+                <h2>Golden Turmeric Latte</h2>
+                <div class="turmeniclatte"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dinnerpage" id="dinnerpage">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="startersd">
+            <h1>Starters</h1>
+            <div class="menu-item3">
+                <h2>Caramelized Pear & Goat Cheese Salad</h2>
+                <div class="pear"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Tuna Tartare</h2>
+                <div class="tuna"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Truffle Mushroom Arancini</h2>
+                <div class="truffle"></div>
+            </div>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="maind">
+            <h1>Main Dishes</h1>
+            <div class="menu-item3">
+                <h2>Herb-Crusted Lamb Chops</h2>
+                <div class="lamb"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Pan-Seared Sea Bass</h2>
+                <div class="seabass"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Vegan Butternut Squash Risotto</h2>
+                <div class="squash"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="drinksd">
+            <h1>Drinks</h1>
+            <div class="menu-item3">
+                <h2>Rosemary Gin Fizz</h2>
+                <div class="gin"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Elderflower & Cucumber Martini</h2>
+                <div class="martini"></div>
+            </div>
+            <div class="menu-item3">
+                <h2>Classic Red Sangria</h2>
+                <div class="sangria"></div>
+            </div>
+        </div>
+    </div>
+    <div class="winepage" id="winepage">
+        <div data-aos="fade-right" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="white">
+            <h1>White Wines</h1>
+            <div class="menu-item4">
+                <h2>Sauvignon Blanc – Cloudy Bay, New Zealand</h2>
+                <div class="sauvignon"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Chardonnay – Domaine Leflaive, France</h2>
+                <div class="chardonnay"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Riesling – Dr. Loosen, Germany</h2>
+                <div class="riesling"></div>
+            </div>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="red">
+            <h1>Red Wines</h1>
+            <div class="menu-item4">
+                <h2>Pinot Noir – La Crema, USA</h2>
+                <div class="noir"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Cabernet Sauvignon – Silver Oak, USA</h2>
+                <div class="cabernet"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Malbec – Catena Zapata, Argentina</h2>
+                <div class="malbec"></div>
+            </div>
+        </div>
+    
+        <div data-aos="fade-left" data-aos-delay="600" data-aos-offset="200" data-aos-duration="3500" class="sparkling">
+            <h1>Sparkling Wines</h1>
+            <div class="menu-item4">
+                <h2>Prosecco – La Marca, Italy</h2>
+                <div class="prosecco"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Champagne – Moët & Chandon, France</h2>
+                <div class="moet"></div>
+            </div>
+            <div class="menu-item4">
+                <h2>Rosé Sparkling – Domaine Carneros, USA</h2>
+                <div class="rose"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div  onclick="topFunction()" id="back"><img src="img/back.png"></div>
+    <footer class="footer">
+        <section class="ft-main">
+            <div class="ft-main-item2">
+                <h2 class="ft-title5">CONTACTS</h2>
+                <ul>
+                    <li><a href="https://web.telegram.org/" target="_blank">Telegram</a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+                    <li><a href="https://mail.google.com/" target="_blank">Aesthetic@gmail.com</a></li>
+                    <li><a href="tel:+79152775792">+7(915)277-57-99</a></li>
+                    <li><a href="tel:+79152775792">+7(915)277-57-99</a></li>
+                </ul>
+            </div>
+    
+            <div class="ft-main-item3">
+                <h2 class="ft-title3">LOCATION</h2>
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F,+55,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+142171/data=!4m2!3m1!1s0x414aa94b4e49274d:0x1186afd4825fcee4?sa=X&ved=1t:242&ictx=111" target="blank">Russia, Moscow<br>Theatral st.55</a></li>
+                </ul>
+                </div>
+            <div class="ft-main-item6">
+            <div class="ft-title4">OPENING HOURS</h2>
+                <ul>
+                    <li>LUNCH<br>Saturday<br> and Sunday<br> Reservations<br> from 12pm<br> -1.30pm</li>
+                    <li id="dinner">DINNER<br>Wednesday<br> to Sunday <br>Reservations <br>from <br>6 to 8.45</li>
+                </ul>
+            </div>
+        </div>
+            <div class="ft-main-item5">
+                <h2 class="ft-title">RESERVATIONS</h2>
+                <h2 class="ft-title2"><p>MAKE A RESERVATION</p></h2>
+                <ul>
+                    <li>We acknowledge the Traditional Custodians of this land upon which Aesthetic sits, the Gadigal<br> of the Eora Nation. We recognise their continuing connection and unique cultural and<br> spiritual relationship to the land, water and community. We pay our deepest respects to<br> them and their culture, and to Elders, past, present and emerging.</li>
+                </ul>
+            </div>
+            <div class="copyright"><p>©AESTETHIC RESTAURANT 2024. ALL RIGHTS RESERVED.</p></div>
+            
+        </section>
+    </footer>
+    </body>
+<script src="/modules/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
