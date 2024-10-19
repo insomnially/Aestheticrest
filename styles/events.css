@@ -234,7 +234,7 @@
 
 .menuBtn span {
     width: 25px;
-    height: 2px;
+    height: 1px;
     position: absolute;
     background-color: rgb(255, 255, 255);
     transition: all .2s;
