@@ -1210,6 +1210,10 @@ li {
         padding: 0;
     }
 
+    .manny, .manny .secondcenterC, .manny #secondcenterC, .manny #secondcenterC h1, .manny #secondcenterC, .manny #secondcenterC h2, .manny .secondcenterC h1, .manny .secondcenterC h2  {
+        display: none;
+    }
+
     .containerb-left {
         display: flex;
         background-repeat: no-repeat;
@@ -1373,11 +1377,6 @@ li {
         flex-direction: column;
         padding: 0;
     }
-
-
-/*         .manny, .manny .secondcenterC, .manny #secondcenterC, .manny #secondcenterC h1, .manny #secondcenterC, .manny #secondcenterC h2, .manny .secondcenterC h1, .manny .secondcenterC h2  {
-        display: none;
-    } */
 
     .containerc-center h1 {
         font-weight: 500;
