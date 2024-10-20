@@ -1338,28 +1338,28 @@ li {
     filter:brightness(100%);
     }
 
-.containerd_background {
+    .containerd_background {
     width: 0%;
-}
-.containerd__inner {
+    }
+    .containerd__inner {
     display: flex;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter:brightness(50%);
     align-items: center;
-}
+    }
 
-.containerd__inner p {
+    .containerd__inner p {
     font-size: 15px;
     color: rgb(255, 255, 255);
-}
+    }
 
-.containerd__inner h1 {
+    .containerd__inner h1 {
     font-size: 25px;
     color: white;
     filter: brightness(100%);
-}
+    }
 
     .containerc-center #firstcenterC {
         font-weight:normal;
